@@ -8,8 +8,6 @@ public class Classroom {
     private String type;
     private int floor;
     private boolean hasProjector;
-
-    // Class fields (encapsulation - all private)
     private static int totalClassrooms = 0;
 
     // The default constructor

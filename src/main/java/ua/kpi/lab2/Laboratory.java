@@ -29,7 +29,7 @@ public class Laboratory extends Classroom {
     public int getSafetyLevel() { return safetyLevel; }
     public void setSafetyLevel(int safetyLevel) { this.safetyLevel = safetyLevel; }
 
-    // Overriding parent method — @Override marks it for compiler
+    // Overriding parent method
     @Override
     public String getInfo() {
         return super.getInfo() +
